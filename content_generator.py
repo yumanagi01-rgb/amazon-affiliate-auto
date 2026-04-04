@@ -2,6 +2,7 @@
 
 import anthropic
 from config import ANTHROPIC_API_KEY, get_amazon_url
+from sale_manager import get_sale_hashtags, get_current_sale_name
 
 
 def generate_tweet(product: dict) -> str:
@@ -9,7 +10,17 @@ def generate_tweet(product: dict) -> str:
 
     url = get_amazon_url(product["asin"])
     features = "・".join(product["features"])
-    hashtags = " ".join(product["hashtags"]) + " #ガジェ美ライフ #Amazon"
+
+    # 商品ハッシュタグ（最大3つに絞る）+ 固定タグ + セールタグ
+    product_tags = " ".join(product["hashtags"][:3])
+    sale_tags = " ".join(get_sale_hashtags())
+    hashtags = f"{product_tags} #ガジェ美ライフ #Amazon"
+    if sale_tags:
+        hashtags += f" {sale_tags}"
+
+    sale_name = get_current_sale_name()
+    if sale_name:
+        print(f"[セール] {sale_name}")
 
     prompt = f"""以下のAmazon商品を紹介するXの投稿文を日本語で作成してください。
 

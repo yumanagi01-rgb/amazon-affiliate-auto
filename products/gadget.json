@@ -5,7 +5,7 @@
     "category": "イヤホン",
     "features": ["ノイズキャンセリング", "最大50時間再生", "マルチポイント接続"],
     "price_range": "8,000円台",
-    "hashtags": ["#ワイヤレスイヤホン", "#ガジェット", "#Anker"]
+    "hashtags": ["#ワイヤレスイヤホン", "#ノイキャン", "#ガジェット", "#Anker", "#音楽好き", "#耳活"]
   },
   {
     "name": "Anker PowerCore 10000 モバイルバッテリー",
@@ -13,7 +13,7 @@
     "category": "モバイルバッテリー",
     "features": ["10000mAh大容量", "コンパクト設計", "急速充電対応"],
     "price_range": "3,000円台",
-    "hashtags": ["#モバイルバッテリー", "#ガジェット", "#Anker"]
+    "hashtags": ["#モバイルバッテリー", "#ガジェット", "#Anker", "#充電", "#旅行グッズ"]
   },
   {
     "name": "Anker 533 充電器 USB-C 65W",
@@ -21,7 +21,7 @@
     "category": "充電器",
     "features": ["65W高出力", "3ポート同時充電", "コンパクト"],
     "price_range": "3,000円台",
-    "hashtags": ["#充電器", "#ガジェット", "#USB-C"]
+    "hashtags": ["#充電器", "#ガジェット", "#USB_C", "#Anker", "#在宅勤務", "#デスク環境"]
   },
   {
     "name": "TP-Link WiFi ルーター Archer AX3000",
@@ -29,7 +29,7 @@
     "category": "Wi-Fi",
     "features": ["WiFi6対応", "広い通信範囲", "安定した接続"],
     "price_range": "7,000円台",
-    "hashtags": ["#WiFi", "#ガジェット", "#在宅勤務"]
+    "hashtags": ["#WiFi", "#WiFi6", "#ガジェット", "#在宅勤務", "#テレワーク", "#ネット環境"]
   },
   {
     "name": "Logicool MX MASTER 3S マウス",
@@ -37,7 +37,7 @@
     "category": "マウス",
     "features": ["高精度トラッキング", "静音クリック", "人間工学デザイン"],
     "price_range": "15,000円台",
-    "hashtags": ["#マウス", "#ガジェット", "#在宅勤務"]
+    "hashtags": ["#マウス", "#ガジェット", "#在宅勤務", "#Logicool", "#デスク環境", "#テレワーク"]
   },
   {
     "name": "Fire TV Stick 4K Max",
@@ -45,6 +45,6 @@
     "category": "ストリーミング",
     "features": ["4K対応", "Alexa音声操作", "サクサク動作"],
     "price_range": "7,000円台",
-    "hashtags": ["#FireTV", "#ガジェット", "#映画"]
+    "hashtags": ["#FireTV", "#ガジェット", "#映画", "#動画配信", "#Alexa", "#Amazon"]
   }
 ]
