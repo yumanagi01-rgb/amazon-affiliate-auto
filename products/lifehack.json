@@ -1,0 +1,50 @@
+[
+  {
+    "name": "コクヨ キャンパスダイアリー 週間レフト B6",
+    "asin": "B0BNTXRS9M",
+    "category": "手帳",
+    "features": ["週間レフト式", "書きやすい用紙", "コンパクト"],
+    "price_range": "1,000円台",
+    "hashtags": ["#手帳", "#ライフハック", "#タイパ"]
+  },
+  {
+    "name": "山崎実業 tower キッチン収納ラック",
+    "asin": "B07QDD2KYS",
+    "category": "収納",
+    "features": ["スタイリッシュ", "省スペース", "多機能"],
+    "price_range": "3,000円台",
+    "hashtags": ["#収納", "#ライフハック", "#tower"]
+  },
+  {
+    "name": "サーモス 真空断熱タンブラー 420ml",
+    "asin": "B07QMRV5WZ",
+    "category": "タンブラー",
+    "features": ["6時間保冷保温", "結露しない", "食洗機対応"],
+    "price_range": "2,000円台",
+    "hashtags": ["#タンブラー", "#ライフハック", "#サーモス"]
+  },
+  {
+    "name": "Kindle Paperwhite 8GB",
+    "asin": "B08KTZ8249",
+    "category": "電子書籍",
+    "features": ["防水設計", "目に優しい", "数千冊携帯可能"],
+    "price_range": "15,000円台",
+    "hashtags": ["#Kindle", "#読書", "#ライフハック"]
+  },
+  {
+    "name": "エレコム デスクマット 大型マウスパッド",
+    "asin": "B07Q4K3TRL",
+    "category": "デスク",
+    "features": ["大型サイズ", "滑り止め", "デスク保護"],
+    "price_range": "2,000円台",
+    "hashtags": ["#デスク環境", "#ライフハック", "#在宅勤務"]
+  },
+  {
+    "name": "バルミューダ ザ・トースター K05A",
+    "asin": "B09BJYXKLG",
+    "category": "キッチン家電",
+    "features": ["スチームトースト", "5種のモード", "デザイン家電"],
+    "price_range": "26,000円台",
+    "hashtags": ["#バルミューダ", "#時短家電", "#ライフハック"]
+  }
+]

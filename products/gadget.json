@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Anker Soundcore Liberty 4 NC 完全ワイヤレスイヤホン",
+    "asin": "B0CF5KXYQT",
+    "category": "イヤホン",
+    "features": ["ノイズキャンセリング", "最大50時間再生", "マルチポイント接続"],
+    "price_range": "8,000円台",
+    "hashtags": ["#ワイヤレスイヤホン", "#ガジェット", "#Anker"]
+  },
+  {
+    "name": "Anker PowerCore 10000 モバイルバッテリー",
+    "asin": "B07JZCJKFM",
+    "category": "モバイルバッテリー",
+    "features": ["10000mAh大容量", "コンパクト設計", "急速充電対応"],
+    "price_range": "3,000円台",
+    "hashtags": ["#モバイルバッテリー", "#ガジェット", "#Anker"]
+  },
+  {
+    "name": "Anker 533 充電器 USB-C 65W",
+    "asin": "B09BQZJQSB",
+    "category": "充電器",
+    "features": ["65W高出力", "3ポート同時充電", "コンパクト"],
+    "price_range": "3,000円台",
+    "hashtags": ["#充電器", "#ガジェット", "#USB-C"]
+  },
+  {
+    "name": "TP-Link WiFi ルーター Archer AX3000",
+    "asin": "B08D6WQTHS",
+    "category": "Wi-Fi",
+    "features": ["WiFi6対応", "広い通信範囲", "安定した接続"],
+    "price_range": "7,000円台",
+    "hashtags": ["#WiFi", "#ガジェット", "#在宅勤務"]
+  },
+  {
+    "name": "Logicool MX MASTER 3S マウス",
+    "asin": "B09HMKFDXC",
+    "category": "マウス",
+    "features": ["高精度トラッキング", "静音クリック", "人間工学デザイン"],
+    "price_range": "15,000円台",
+    "hashtags": ["#マウス", "#ガジェット", "#在宅勤務"]
+  },
+  {
+    "name": "Fire TV Stick 4K Max",
+    "asin": "B09BKFPZJG",
+    "category": "ストリーミング",
+    "features": ["4K対応", "Alexa音声操作", "サクサク動作"],
+    "price_range": "7,000円台",
+    "hashtags": ["#FireTV", "#ガジェット", "#映画"]
+  }
+]
