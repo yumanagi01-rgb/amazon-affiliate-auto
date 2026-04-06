@@ -85,6 +85,8 @@ def post_tweet(text: str, asin: str | None = None) -> str:
         print(f"[403エラー詳細] api_codes={e.api_codes} api_messages={e.api_messages}")
         if hasattr(e, 'response') and e.response is not None:
             print(f"[レスポンスボディ] {e.response.text}")
+            headers = e.response.headers
+            print(f"[レート制限] remaining={headers.get('x-rate-limit-remaining')} reset={headers.get('x-rate-limit-reset')} limit={headers.get('x-rate-limit-limit')}")
         raise
 
 
