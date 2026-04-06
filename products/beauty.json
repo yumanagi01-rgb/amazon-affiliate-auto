@@ -1,7 +1,7 @@
 [
   {
     "name": "パナソニック 美顔器 イオンエフェクター EH-ST97",
-    "asin": "B098BHWQMV",
+    "asin": "B0DPWT27NV",
     "category": "美顔器",
     "features": ["イオン導入", "温感リフト", "防水設計"],
     "price_range": "15,000円台",
@@ -9,7 +9,7 @@
   },
   {
     "name": "ビーグレン QuSomeローション",
-    "asin": "B078WNDMDS",
+    "asin": "B091D633YB",
     "category": "化粧水",
     "features": ["浸透力UP", "ビタミンC誘導体配合", "毛穴ケア"],
     "price_range": "5,000円台",
@@ -17,15 +17,15 @@
   },
   {
     "name": "パナソニック ヘアードライヤー ナノケア EH-NA0J",
-    "asin": "B09LCNF8WF",
+    "asin": "B0B72L6K9P",
     "category": "ドライヤー",
     "features": ["ナノイー搭載", "速乾", "髪へのダメージ軽減"],
     "price_range": "20,000円台",
     "hashtags": ["#ドライヤー", "#美容家電", "#ナノケア", "#ヘアケア", "#さらさら", "#パナソニック"]
   },
   {
-    "name": "フィリップス 電動歯ブラシ ソニッケアー HX9911",
-    "asin": "B07MGLX6QH",
+    "name": "フィリップス 電動歯ブラシ ソニッケアー",
+    "asin": "B0D1VTC31M",
     "category": "電動歯ブラシ",
     "features": ["音波振動", "スマートアプリ連携", "圧力センサー"],
     "price_range": "20,000円台",
@@ -33,9 +33,9 @@
   },
   {
     "name": "SK-II フェイシャルトリートメントエッセンス",
-    "asin": "B00PULVZSK",
+    "asin": "B0DZCVM7V5",
     "category": "美容液",
-    "features": ["ピテラ配合", "透明感UP", "#1売上"],
+    "features": ["ピテラ配合", "透明感UP", "売上No.1"],
     "price_range": "16,000円台",
     "hashtags": ["#SKII", "#美容液", "#スキンケア", "#透明感", "#美肌", "#デパコス"]
   }
