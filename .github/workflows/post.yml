@@ -5,9 +5,7 @@ on:
     # JST = UTC+9 なので UTC時間で指定
     - cron: '0 22 * * *'   # JST 7:00
     - cron: '0 3 * * *'    # JST 12:00
-    - cron: '0 9 * * *'    # JST 18:00
-    - cron: '0 11 * * *'   # JST 20:00
-    - cron: '0 13 * * *'   # JST 22:00
+    - cron: '0 12 * * *'   # JST 21:00
   workflow_dispatch:        # 手動実行ボタン
 
 jobs:
