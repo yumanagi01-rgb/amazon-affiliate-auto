@@ -73,13 +73,19 @@ def post_tweet(text: str, asin: str | None = None) -> str:
         else:
             print("[画像取得失敗 - テキストのみ投稿]")
 
-    if media_ids:
-        response = client.create_tweet(text=text, media_ids=media_ids)
-    else:
-        response = client.create_tweet(text=text)
-    tweet_id = response.data["id"]
-    print(f"[投稿完了] https://x.com/ynhmaf/status/{tweet_id}")
-    return tweet_id
+    try:
+        if media_ids:
+            response = client.create_tweet(text=text, media_ids=media_ids)
+        else:
+            response = client.create_tweet(text=text)
+        tweet_id = response.data["id"]
+        print(f"[投稿完了] https://x.com/ynhmaf/status/{tweet_id}")
+        return tweet_id
+    except tweepy.errors.Forbidden as e:
+        print(f"[403エラー詳細] api_codes={e.api_codes} api_messages={e.api_messages}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"[レスポンスボディ] {e.response.text}")
+        raise
 
 
 def test_connection() -> bool:
