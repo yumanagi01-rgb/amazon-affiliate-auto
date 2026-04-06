@@ -5,7 +5,7 @@
     "category": "イヤホン",
     "features": ["ノイズキャンセリング", "最大50時間再生", "マルチポイント接続"],
     "price_range": "8,000円台",
-    "hashtags": ["#ワイヤレスイヤホン", "#ノイキャン", "#ガジェット", "#Anker", "#音楽好き", "#耳活"]
+    "hashtags": ["#ワイヤレスイヤホン", "#ノイキャン", "#ガジェット"]
   },
   {
     "name": "Anker PowerCore 10000 モバイルバッテリー",
@@ -13,7 +13,7 @@
     "category": "モバイルバッテリー",
     "features": ["10000mAh大容量", "コンパクト設計", "急速充電対応"],
     "price_range": "3,000円台",
-    "hashtags": ["#モバイルバッテリー", "#ガジェット", "#Anker", "#充電", "#旅行グッズ"]
+    "hashtags": ["#モバイルバッテリー", "#ガジェット", "#旅行グッズ"]
   },
   {
     "name": "Anker 533 充電器 USB-C 65W",
@@ -21,7 +21,7 @@
     "category": "充電器",
     "features": ["65W高出力", "3ポート同時充電", "コンパクト"],
     "price_range": "3,000円台",
-    "hashtags": ["#充電器", "#ガジェット", "#USB_C", "#Anker", "#在宅勤務", "#デスク環境"]
+    "hashtags": ["#充電器", "#ガジェット", "#デスク環境"]
   },
   {
     "name": "TP-Link WiFi ルーター Archer AX3000",
@@ -29,7 +29,7 @@
     "category": "Wi-Fi",
     "features": ["WiFi6対応", "広い通信範囲", "安定した接続"],
     "price_range": "7,000円台",
-    "hashtags": ["#WiFi", "#WiFi6", "#ガジェット", "#在宅勤務", "#テレワーク", "#ネット環境"]
+    "hashtags": ["#WiFi6", "#ガジェット", "#テレワーク"]
   },
   {
     "name": "Logicool MX MASTER 3S マウス",
@@ -37,7 +37,7 @@
     "category": "マウス",
     "features": ["高精度トラッキング", "静音クリック", "人間工学デザイン"],
     "price_range": "15,000円台",
-    "hashtags": ["#マウス", "#ガジェット", "#在宅勤務", "#Logicool", "#デスク環境", "#テレワーク"]
+    "hashtags": ["#マウス", "#デスク環境", "#テレワーク"]
   },
   {
     "name": "Fire TV Stick 4K Max",
@@ -45,6 +45,118 @@
     "category": "ストリーミング",
     "features": ["4K対応", "Alexa音声操作", "サクサク動作"],
     "price_range": "7,000円台",
-    "hashtags": ["#FireTV", "#ガジェット", "#映画", "#動画配信", "#Alexa", "#Amazon"]
+    "hashtags": ["#FireTV", "#ガジェット", "#映画"]
+  },
+  {
+    "name": "iPad 第10世代",
+    "asin": "B0BM8JF9FK",
+    "category": "タブレット",
+    "features": ["A14 Bionicチップ", "10.9インチ液晶", "USB-C対応"],
+    "price_range": "60,000円台",
+    "hashtags": ["#iPad", "#ガジェット", "#Apple"]
+  },
+  {
+    "name": "Apple AirPods Pro 第2世代",
+    "asin": "B0CQ8GDDBM",
+    "category": "イヤホン",
+    "features": ["アクティブノイズキャンセリング", "外部音取り込み", "MagSafe対応"],
+    "price_range": "35,000円台",
+    "hashtags": ["#AirPods", "#ノイキャン", "#Apple"]
+  },
+  {
+    "name": "Anker MagSafe対応 マグネット充電器",
+    "asin": "B0BXGPLPBF",
+    "category": "充電器",
+    "features": ["MagSafe対応", "15W急速充電", "コンパクト設計"],
+    "price_range": "3,000円台",
+    "hashtags": ["#MagSafe", "#充電器", "#iPhone"]
+  },
+  {
+    "name": "サンワサプライ USBハブ 7ポート",
+    "asin": "B09TDK1YLX",
+    "category": "USBハブ",
+    "features": ["7ポート", "USB3.0対応", "バスパワー"],
+    "price_range": "3,000円台",
+    "hashtags": ["#USBハブ", "#デスク環境", "#在宅勤務"]
+  },
+  {
+    "name": "Kindle Scribe",
+    "asin": "B0CZ9SX1GW",
+    "category": "電子書籍",
+    "features": ["手書きメモ対応", "10.2インチ大画面", "300ppi高解像度"],
+    "price_range": "50,000円台",
+    "hashtags": ["#Kindle", "#手書き", "#読書"]
+  },
+  {
+    "name": "Echo Dot 第5世代",
+    "asin": "B09B2PF8S4",
+    "category": "スマートスピーカー",
+    "features": ["Alexa搭載", "高音質スピーカー", "スマートホーム対応"],
+    "price_range": "8,000円台",
+    "hashtags": ["#Alexa", "#スマートホーム", "#ガジェット"]
+  },
+  {
+    "name": "BUFFALO ポータブルSSD 外付け",
+    "asin": "B0FKMXC6YJ",
+    "category": "ストレージ",
+    "features": ["高速転送", "コンパクト設計", "耐衝撃"],
+    "price_range": "8,000円台",
+    "hashtags": ["#SSD", "#ガジェット", "#データ保存"]
+  },
+  {
+    "name": "ソニー ワイヤレスイヤホン WF-1000XM5",
+    "asin": "B0D1VN2VB7",
+    "category": "イヤホン",
+    "features": ["業界最高水準ノイキャン", "最大36時間再生", "マルチポイント接続"],
+    "price_range": "30,000円台",
+    "hashtags": ["#ワイヤレスイヤホン", "#ノイキャン", "#Sony"]
+  },
+  {
+    "name": "iRobot ルンバ ロボット掃除機",
+    "asin": "B0F1FCZYV6",
+    "category": "ロボット掃除機",
+    "features": ["自動充電", "マッピング機能", "アレル物質除去"],
+    "price_range": "40,000円台",
+    "hashtags": ["#ルンバ", "#時短家電", "#ガジェット"]
+  },
+  {
+    "name": "Anker MagGo PowerBank マグネット",
+    "asin": "B0F6LBT3ZX",
+    "category": "モバイルバッテリー",
+    "features": ["MagSafe対応", "5000mAh", "ワイヤレス充電"],
+    "price_range": "5,000円台",
+    "hashtags": ["#モバイルバッテリー", "#MagSafe", "#iPhone"]
+  },
+  {
+    "name": "TP-Link スマートプラグ",
+    "asin": "B0C9PYJZJ7",
+    "category": "スマートホーム",
+    "features": ["音声操作対応", "消費電力モニタリング", "タイマー機能"],
+    "price_range": "2,000円台",
+    "hashtags": ["#スマートホーム", "#Alexa", "#節電"]
+  },
+  {
+    "name": "エレコム Webカメラ フルHD",
+    "asin": "B0GQZPBL6N",
+    "category": "Webカメラ",
+    "features": ["フルHD 1080p", "マイク内蔵", "プラグ&プレイ"],
+    "price_range": "5,000円台",
+    "hashtags": ["#Webカメラ", "#テレワーク", "#在宅勤務"]
+  },
+  {
+    "name": "サンワダイレクト モニターアーム",
+    "asin": "B0CQNK2XQ6",
+    "category": "モニターアーム",
+    "features": ["高さ調整可能", "デスク固定", "すっきり収納"],
+    "price_range": "5,000円台",
+    "hashtags": ["#モニターアーム", "#デスク環境", "#在宅勤務"]
+  },
+  {
+    "name": "Belkin ワイヤレス充電パッド",
+    "asin": "B0FK4L1S7C",
+    "category": "充電器",
+    "features": ["15W高速充電", "複数機器対応", "薄型設計"],
+    "price_range": "4,000円台",
+    "hashtags": ["#ワイヤレス充電", "#充電器", "#ガジェット"]
   }
 ]
