@@ -75,9 +75,9 @@ def post_tweet(text: str, asin: str | None = None) -> str:
 
     try:
         if media_ids:
-            response = client.create_tweet(text=text, media_ids=media_ids)
+            response = client.create_tweet(text=text, media_ids=media_ids, user_auth=True)
         else:
-            response = client.create_tweet(text=text)
+            response = client.create_tweet(text=text, user_auth=True)
         tweet_id = response.data["id"]
         print(f"[投稿完了] https://x.com/ynhmaf/status/{tweet_id}")
         return tweet_id
