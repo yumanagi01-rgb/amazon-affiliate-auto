@@ -11,10 +11,10 @@ def generate_tweet(product: dict) -> str:
     url = get_amazon_url(product["asin"])
     features = "・".join(product["features"])
 
-    # 商品ハッシュタグ（最大2つ）+ セールタグ（最大1つ）
+    # 商品ハッシュタグ（最大2つ）+ #Amazon固定 + セールタグ（最大1つ）
     product_tags = " ".join(product["hashtags"][:2])
     sale_tags = get_sale_hashtags()
-    hashtags = product_tags
+    hashtags = f"{product_tags} #Amazon"
     if sale_tags:
         hashtags += f" {sale_tags[0]}"
 
