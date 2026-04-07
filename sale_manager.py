@@ -1,8 +1,10 @@
 """セールイベントのハッシュタグを管理する"""
 
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
+
+JST = timezone(timedelta(hours=9))
 
 SALE_CONFIG_FILE = Path(__file__).parent / "sale_config.json"
 
@@ -43,8 +45,8 @@ SCHEDULED_SALES = [
 
 
 def _is_active_sale(sale: dict) -> bool:
-    """今日がセール期間内かどうか判定する"""
-    today = datetime.now().date()
+    """今日がセール期間内かどうか判定する（JST基準）"""
+    today = datetime.now(JST).date()
     year = today.year
     start = date(year, *sale["start"])
     end = date(year, *sale["end"])

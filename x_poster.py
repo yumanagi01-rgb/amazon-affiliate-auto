@@ -1,6 +1,7 @@
 """X (Twitter) に投稿する"""
 
 import io
+import time
 import requests
 import tweepy
 from config import (
@@ -73,21 +74,27 @@ def post_tweet(text: str, asin: str | None = None) -> str:
         else:
             print("[画像取得失敗 - テキストのみ投稿]")
 
-    try:
-        if media_ids:
-            response = client.create_tweet(text=text, media_ids=media_ids, user_auth=True)
-        else:
-            response = client.create_tweet(text=text, user_auth=True)
-        tweet_id = response.data["id"]
-        print(f"[投稿完了] https://x.com/ynhmaf/status/{tweet_id}")
-        return tweet_id
-    except tweepy.errors.Forbidden as e:
-        print(f"[403エラー詳細] api_codes={e.api_codes} api_messages={e.api_messages}")
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"[レスポンスボディ] {e.response.text}")
-            headers = e.response.headers
-            print(f"[レート制限] remaining={headers.get('x-rate-limit-remaining')} reset={headers.get('x-rate-limit-reset')} limit={headers.get('x-rate-limit-limit')}")
-        raise
+    for attempt in range(1, 4):
+        try:
+            if media_ids:
+                response = client.create_tweet(text=text, media_ids=media_ids, user_auth=True)
+            else:
+                response = client.create_tweet(text=text, user_auth=True)
+            tweet_id = response.data["id"]
+            print(f"[投稿完了] https://x.com/ynhmaf/status/{tweet_id}")
+            return tweet_id
+        except tweepy.errors.Forbidden as e:
+            print(f"[403エラー詳細 attempt={attempt}] api_codes={e.api_codes} api_messages={e.api_messages}")
+            if hasattr(e, 'response') and e.response is not None:
+                print(f"[レスポンスボディ] {e.response.text}")
+                headers = e.response.headers
+                print(f"[レート制限] remaining={headers.get('x-rate-limit-remaining')} reset={headers.get('x-rate-limit-reset')} limit={headers.get('x-rate-limit-limit')}")
+            if attempt < 3:
+                wait = attempt * 10
+                print(f"[リトライ] {wait}秒後に再試行します...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def test_connection() -> bool:
