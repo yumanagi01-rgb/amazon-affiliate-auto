@@ -104,12 +104,12 @@
     "hashtags": ["#SSD", "#ガジェット", "#データ保存"]
   },
   {
-    "name": "ソニー ワイヤレスイヤホン WF-1000XM5",
+    "name": "Marshall Major V ワイヤレスオンイヤーヘッドホン",
     "asin": "B0D1VN2VB7",
-    "category": "イヤホン",
-    "features": ["業界最高水準ノイキャン", "最大36時間再生", "マルチポイント接続"],
-    "price_range": "30,000円台",
-    "hashtags": ["#ワイヤレスイヤホン", "#ノイキャン", "#Sony"]
+    "category": "ヘッドホン",
+    "features": ["80時間以上再生", "折りたたみ設計", "有線接続にも対応"],
+    "price_range": "20,000円台",
+    "hashtags": ["#ヘッドホン", "#Marshall", "#ガジェット"]
   },
   {
     "name": "iRobot ルンバ ロボット掃除機",
@@ -136,11 +136,11 @@
     "hashtags": ["#スマートホーム", "#Alexa", "#節電"]
   },
   {
-    "name": "エレコム Webカメラ フルHD",
+    "name": "Nuroum 360 Pro Webカメラ",
     "asin": "B0GQZPBL6N",
     "category": "Webカメラ",
-    "features": ["フルHD 1080p", "マイク内蔵", "プラグ&プレイ"],
-    "price_range": "5,000円台",
+    "features": ["360度AI自動追跡", "マイク・スピーカー内蔵", "USBプラグアンドプレイ"],
+    "price_range": "20,000円台",
     "hashtags": ["#Webカメラ", "#テレワーク", "#在宅勤務"]
   },
   {
