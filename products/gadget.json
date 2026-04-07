@@ -16,20 +16,20 @@
     "hashtags": ["#モバイルバッテリー", "#ガジェット", "#旅行グッズ"]
   },
   {
-    "name": "Anker 533 充電器 USB-C 65W",
+    "name": "Anker Nano II 65W 充電器 USB-C",
     "asin": "B08X11GD52",
     "category": "充電器",
-    "features": ["65W高出力", "3ポート同時充電", "コンパクト"],
+    "features": ["GaN II採用で超コンパクト", "65W高出力", "PD対応・MacBook充電可"],
     "price_range": "3,000円台",
     "hashtags": ["#充電器", "#ガジェット", "#デスク環境"]
   },
   {
-    "name": "TP-Link WiFi ルーター Archer AX3000",
+    "name": "365チャージWiFi モバイルルーター",
     "asin": "B0CRK9STYP",
-    "category": "Wi-Fi",
-    "features": ["WiFi6対応", "広い通信範囲", "安定した接続"],
+    "category": "モバイルWi-Fi",
+    "features": ["契約不要・月額費用なし", "100GB付き端末買い切り", "国内専用ポケットWiFi"],
     "price_range": "7,000円台",
-    "hashtags": ["#WiFi6", "#ガジェット", "#テレワーク"]
+    "hashtags": ["#ポケットWiFi", "#モバイルルーター", "#テレワーク"]
   },
   {
     "name": "Logicool MX MASTER 3S マウス",
@@ -64,12 +64,12 @@
     "hashtags": ["#AirPods", "#ノイキャン", "#Apple"]
   },
   {
-    "name": "Anker MagSafe対応 マグネット充電器",
+    "name": "ワイヤレス充電器 3in1 急速充電",
     "asin": "B0BXGPLPBF",
     "category": "充電器",
-    "features": ["MagSafe対応", "15W急速充電", "コンパクト設計"],
+    "features": ["iPhone/iWatch/AirPods同時充電", "最大15W急速充電", "MagSafe対応"],
     "price_range": "3,000円台",
-    "hashtags": ["#MagSafe", "#充電器", "#iPhone"]
+    "hashtags": ["#ワイヤレス充電", "#充電器", "#iPhone"]
   },
   {
     "name": "サンワサプライ USBハブ 7ポート",
@@ -88,18 +88,18 @@
     "hashtags": ["#Kindle", "#手書き", "#読書"]
   },
   {
-    "name": "Echo Dot 第5世代",
+    "name": "Amazon Echo Show 5 第3世代",
     "asin": "B09B2PF8S4",
-    "category": "スマートスピーカー",
-    "features": ["Alexa搭載", "高音質スピーカー", "スマートホーム対応"],
+    "category": "スマートディスプレイ",
+    "features": ["5.5インチ画面付きAlexaデバイス", "2MPカメラ内蔵", "スマートホーム操作"],
     "price_range": "8,000円台",
     "hashtags": ["#Alexa", "#スマートホーム", "#ガジェット"]
   },
   {
-    "name": "BUFFALO ポータブルSSD 外付け",
+    "name": "ADATA SC730 外付けSSD 512GB",
     "asin": "B0FKMXC6YJ",
     "category": "ストレージ",
-    "features": ["高速転送", "コンパクト設計", "耐衝撃"],
+    "features": ["最大読込600MB/s高速転送", "7.8gの超軽量コンパクト", "USB-C/USB-A両対応"],
     "price_range": "8,000円台",
     "hashtags": ["#SSD", "#ガジェット", "#データ保存"]
   },
