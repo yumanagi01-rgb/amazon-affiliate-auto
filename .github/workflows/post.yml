@@ -1,11 +1,11 @@
 name: Auto Post to X
 
 on:
-  schedule:
-    # JST = UTC+9 なので UTC時間で指定
-    - cron: '0 22 * * *'   # JST 7:00
-    - cron: '0 3 * * *'    # JST 12:00
-    - cron: '0 12 * * *'   # JST 21:00
+  # schedule:
+  #   # JST = UTC+9 なので UTC時間で指定
+  #   - cron: '0 22 * * *'   # JST 7:00
+  #   - cron: '0 3 * * *'    # JST 12:00
+  #   - cron: '0 12 * * *'   # JST 21:00
   workflow_dispatch:        # 手動実行ボタン
 
 jobs:
